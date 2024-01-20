@@ -39,7 +39,7 @@ ol,ul,li,a{
 
 .menu-item{
     color: #6a463f;
-    padding: 25px;
+    padding: 32px;
     font-family:var(--custom-first-font);
 }
 
@@ -223,6 +223,7 @@ p.contactText {
   .contact-form label {
     display: block;
     margin-bottom: 5px;
+    font-family: 'Montserrat';
   }
 
 
