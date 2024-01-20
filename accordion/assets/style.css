@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 900px;
+    background-color:#F8EEFF;
+    display: flex;
+    justify-content: center;
+}
+
+.containerCard{
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding:24px; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:-20%;
+    z-index: 1;
+}
+
+.cardImage img{
+    width: 100%;
+}
+.button{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.cardButton{
+    padding: 20px;
+    background-color: #F4D04E;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+}
+
+p.spanText {
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.textHead {
+    font-size: 24px;
+    font-family: 'Figtree';
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+p.textsText {
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Figtree';
+    font-weight: 300;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.authorMage img {
+    width: 50px;
+}
+
+p.authorText {
+    padding-left: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.accordion {
+    width: 100%;
+    margin-top: 30px;
+}
+.accordion-item {
+    margin-bottom: 10px;
+    border: 3px solid #915E5B;
+    padding: 10px;
+}
+
+.accordion-header {
+    padding: 0px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.accordion-header span{
+    padding-top: 10px;
+}
+.accordion-header i {
+    background: #915e5b;
+    border-radius: 5px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 30px;
+}
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
