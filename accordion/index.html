@@ -6,6 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        document.querySelectorAll('.accordion-header').forEach(item => {
+            item.addEventListener('click', () => {
+                const content = item.nextElementSibling;
+    
+                if(content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     
